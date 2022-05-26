@@ -1,0 +1,69 @@
+.topnav {
+  background-color: #084e53;
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  display: flex;
+  
+  
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #030e0a;
+  color: white;
+}
+.gradient-custom {
+
+  background: #084e53;
+  }
+
+  #calendar{
+    display: grid;
+    height: 60%;
+    width: 50%;
+    padding-top: 5%;    
+}
+
+
+.calendar_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  gap: 70px;
+}
+
+.calendar_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.24);
+  padding: 16px 30px;
+  border-radius: 50px;
+  background: #084e53;
+  border: 3px solid rgb(130, 126, 119);
+  color: white;
+}
+
+.tasks {
+  padding: 20px;
+}
